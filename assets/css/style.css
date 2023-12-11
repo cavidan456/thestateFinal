@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0E1D41;
+}
+
+nav{
+    width: 60%;
+    margin: auto;
+    gap: 30px;
+}
+
+.logo-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-navbar span{
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+nav a{
+    color: #fff;
+}
+
+nav a:hover{
+    color: #f1f1f1;
+}
+
+
+.navbar-info-text{
+    padding: 5px 25px;
+    background-color: #FD784F;
+    color: #fff;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#home-sec{
+    width: 100%;
+    min-height: 550px;
+    background-image: url(../media/home_slider_bcg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home-sec h1{
+    color: #fff;
+    font-size: 86px;
+}
+
+.shop-sec-head{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.line-div{
+    width: 3px;
+    height: 20px;
+    background-color: #FD784F;
+}
+
+.cart-style{
+
+}
+
+.cart-style img{
+    width: 100%;
+}
+
+.cart-style button {
+    border: none;
+    background-color: #FD784F;
+    border-radius: 35px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+
+.cart-style button:hover{
+    background-color: brown;
+}
+
+.btn-div{
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-div button{
+    border: none;
+    background-color: #FD784F;
+    border-radius: 35px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.btn-div button:hover{
+    background-color: brown;
+}
+
+#test-sec{
+    width: 100%;
+    min-height: 400px;
+    background-image: url(../media/testimonials_background.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.test-sec-content{
+    width: 65%;
+    margin: auto;
+
+}
+
+.text-sec-head{
+    width: 350px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.test-sec-text{
+    color: #fff;
+    text-align: center;
+}
+
+.test-sec-img{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #fff;
+}
+
+.test-sec-img h4{
+    font-size: 14px;
+    color: #FD784F;
+}
+
+.test-sec-img img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+#prefer-sec img{
+    width: 100%;
+}
+
+.prefer-sec-head{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.prefer-sec-head h3 {
+    font-size: 24px;
+}
+
+.sec-position{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec-position button{
+    position: absolute;
+    bottom: 30px;
+    border: none;
+    background-color: #FD784F;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+footer{
+    width: 100%;
+    min-height: 30px;
+    text-align: center;
+    background-color: #0E1D41;
+}
+footer h3{
+    font-size: 14px;
+    color: gray;
+}
+
+@media only screen and (max-width:560px) {
+    nav{
+        width: 90%;
+    }
+    .test-sec-content{
+        width: 95%;
+    }
+}
